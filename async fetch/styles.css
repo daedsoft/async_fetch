@@ -1,0 +1,68 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.main-title{
+    text-align: center;
+    margin: 20px auto;
+}
+
+#app{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.task{
+    width: 90%;
+    max-width: 400px;    
+    margin: 20px auto;
+    border: 2px dashed #868686;    
+    box-shadow: 0 0 5px #868686;
+}
+
+.task__body{
+    padding: 10px;
+    display: flex;
+}
+
+.task__id{
+    background-color: #868686;
+    color: #fff;    
+    width: 20px;
+    min-width: 20px;
+    height: 20px;    
+    margin-right: 10px;
+    font-size: 14px;    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.task__content{
+    font-size: 15px;
+}
+
+.task__footer{
+    border-top: 2px dashed #868686;
+    padding: 10px;
+}
+
+.task__status{
+    font-size: 12px;    
+    text-align: right;
+}
+
+.completed{
+    color: #65BC67;
+}
+
+.incompleted{
+    color: #F56758;
+}
+
